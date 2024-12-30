@@ -1,4 +1,4 @@
-require('lualine').setup {
+--[[require('lualine').setup {
   options = {
     theme = 'tokyonight',
     icons_enabled = true,
@@ -21,7 +21,7 @@ require('lualine').setup {
       lualine_y = {  },
       lualine_z = {   }
     },
-    tabline = {
+--[[    tabline = {
       lualine_a = {  },
       lualine_b = {  },
       lualine_c = { 'filename' },
@@ -30,4 +30,10 @@ require('lualine').setup {
       lualine_z = {  }
     },
     extensions = { 'fugitive', 'nvim-tree' }
+}]]
+
+require('lualine').setup{
+  options = {
+    theme = 'tokyonight',
+  },
 }
