@@ -29,7 +29,7 @@
       lualine_y = {  },
       lualine_z = {  }
     },
-    extensions = { 'fugitive', 'nvim-tree' }
+   extensions = { 'fugitive', 'nvim-tree' }
 }]]
 
 require('lualine').setup{
