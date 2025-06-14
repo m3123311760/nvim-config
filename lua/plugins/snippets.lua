@@ -36,7 +36,7 @@ luasnip.config.set_config({
   ext_opts = {
     [require("luasnip.util.types").choiceNode] = {
       active = {
-        virt_text = {{"\u9009\u62e9", "Error"}}
+        virt_text = {{"选择", "Error"}}
       }
     }
   }
