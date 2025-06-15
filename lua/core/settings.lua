@@ -28,7 +28,7 @@ opt.hlsearch = true -- 高亮搜索
 opt.termguicolors = true -- 使用 24 位颜色
 opt.signcolumn = "yes" -- 显示符号列
 opt.cursorline = true -- 高亮当前行
-opt.colorcolumn = "80" -- 显示80列指示线
+-- opt.colorcolumn = "80" -- 显示80列指示线
 opt.mouse = "a" -- 启用鼠标
 
 -- 性能
