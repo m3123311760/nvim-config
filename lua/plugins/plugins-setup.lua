@@ -108,6 +108,7 @@ return require('packer').startup(function(use)
   use {
     'vim-test/vim-test',                    -- 测试运行器
     requires = {
+      'nvim-neotest/nvim-nio',
       'nvim-neotest/neotest',               -- 现代测试框架
       'nvim-neotest/neotest-python',        -- Python 测试适配器
       'nvim-neotest/neotest-go',            -- Go 测试适配器
